@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn{
+    @apply bg-[#04bbff] text-white py-2 px-4 rounded inline-block mt-10 font-bold border border-[#04bbff] hover:bg-transparent hover:text-[#04bbff] transition duration-200
+  }
+
+  .inputStyle {
+    @apply outline-[#04bbff] border-gray-400 border rounded-[5px] px-[4px]
+  }
+}
