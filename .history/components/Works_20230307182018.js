@@ -45,7 +45,7 @@ const Works = () => {
             </div>
             <div className='relative-group'> 
             
-                <Image  src={bg2}  alt="" />
+                <Image  src={"/bg2.jpg"}  alt="" />
                 <div className=' bg-[#000000bd] absolute w-[100%] h-[100%] top-0 opacity-0 transition duration-500 group-hover:opacity-100 grid place-items-center text-[#04bbff]'>
                     titre de projet
                 </div>

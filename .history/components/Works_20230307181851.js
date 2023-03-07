@@ -2,8 +2,7 @@ import React from 'react'
 import Heading from './Heading'
 import Image from 'next/image'
 import d1 from '../public/d1.jpg'
-import bg1 from '../public/bg1.jpg'
-import bg2 from '../public/bg2.jpg'
+import bg1 from '../public/bg1.jng'
 
 
 const Works = () => {
@@ -21,7 +20,7 @@ const Works = () => {
             </div>
             <div className='relative-group'> 
             
-                <Image  src={bg1}  alt="" />
+                <Image  src="/bg1.jpg"  alt="" />
                 <div className=' bg-[#000000bd] absolute w-[100%] h-[100%] top-0 opacity-0 transition duration-500 group-hover:opacity-100 grid place-items-center text-[#04bbff]'>
                     titre de projet
                 </div>
@@ -29,7 +28,7 @@ const Works = () => {
             </div>
             <div className='relative-group'> 
             
-                <Image  src={bg2}  alt="" />
+                <Image  src="/bg2.jpg"  alt="" />
                 <div className=' bg-[#000000bd] absolute w-[100%] h-[100%] top-0 opacity-0 transition duration-500 group-hover:opacity-100 grid place-items-center text-[#04bbff]'>
                     titre de projet
                 </div>
@@ -37,7 +36,7 @@ const Works = () => {
             </div>
             <div className='relative-group'> 
             
-                <Image  src={bg1}  alt="" />
+                <Image  src="/bg1.jpg"  alt="" />
                 <div className=' bg-[#000000bd] absolute w-[100%] h-[100%] top-0 opacity-0 transition duration-500 group-hover:opacity-100 grid place-items-center text-[#04bbff]'>
                     titre de projet
                 </div>
@@ -45,7 +44,7 @@ const Works = () => {
             </div>
             <div className='relative-group'> 
             
-                <Image  src={bg2}  alt="" />
+                <Image  src="/bg2.jpg"  alt="" />
                 <div className=' bg-[#000000bd] absolute w-[100%] h-[100%] top-0 opacity-0 transition duration-500 group-hover:opacity-100 grid place-items-center text-[#04bbff]'>
                     titre de projet
                 </div>

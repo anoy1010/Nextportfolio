@@ -27,7 +27,7 @@ const About = () => {
                         
                         <div className='flex gap-4 items-center font-medium '>
                             <AiOutlineGift className='text-[#04bbff] text-[26px]' />
-                            Date d anniversaire :
+                            Date d'anniversaire :
                         </div>
                         <div className='flex gap-4 items-center font-medium '>
                             <TfiBook className='text-[#04bbff] text-[26px]' />
@@ -52,7 +52,7 @@ const About = () => {
 
                     <div className='flex flex-col gap-6 text-[#051c24]-600'>
                         <div>10/10/****</div>
-                        <div>Universite Virtuelle de Cote d Ivoire</div>
+                        <div>Université Virtuelle de Côte d'Ivoire</div>
                         <div>Master I</div>
                         <div>Abidjan/Bouaké</div>
                         <div>Www.monsite.com</div>

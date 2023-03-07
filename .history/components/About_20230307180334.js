@@ -1,8 +1,7 @@
 import React from 'react'
 import Heading from './Heading'
 import Button from './Button'
-import Image from 'next/image'
-import d1 from '../public/d1.png'
+
 
 import {AiOutlineGift} from 'react-icons/ai'
 import {TfiBook} from 'react-icons/tfi'
@@ -19,7 +18,7 @@ const About = () => {
         <div className='grid grid-cols-1 md:grid-cols-2 gap-[60px]'>
 
             <div>
-                <Image className='w-[500px] h-[600px]' src={d1} alt="" />
+                <Image className='w-[500px] h-[600px]' src="/d1.png" alt="" />
             </div>
             <div>
                 <div className='flex items-center justify-between w-[450px]'>
@@ -27,7 +26,7 @@ const About = () => {
                         
                         <div className='flex gap-4 items-center font-medium '>
                             <AiOutlineGift className='text-[#04bbff] text-[26px]' />
-                            Date d anniversaire :
+                            Date d'anniversaire :
                         </div>
                         <div className='flex gap-4 items-center font-medium '>
                             <TfiBook className='text-[#04bbff] text-[26px]' />
@@ -52,7 +51,7 @@ const About = () => {
 
                     <div className='flex flex-col gap-6 text-[#051c24]-600'>
                         <div>10/10/****</div>
-                        <div>Universite Virtuelle de Cote d Ivoire</div>
+                        <div>Université Virtuelle de Côte d'Ivoire</div>
                         <div>Master I</div>
                         <div>Abidjan/Bouaké</div>
                         <div>Www.monsite.com</div>
